@@ -3,8 +3,10 @@
 natural_number(0).
 natural_number(s(X)):-natural_number(X).
 
-%ewwefwefwefwewefwefwef
 %4.1
+
+lista_ligada(fim).
+lista_ligada(lista(_X,L)):-lista_ligada(L).
 
 %4.2
 
